@@ -61,6 +61,8 @@ fun main() {
 
     cumpleañosPa()
     cumpleañosJuanito()
+
+    problemasPracticos()
 }
 fun cumpleañosPa() {
     print("Felices 52, pa!")
@@ -72,4 +74,21 @@ fun cumpleañosJuanito(): String {
     val edadCumpleaniero = "You are 15 years old"
     println("$nombreCumpleaniero\n$edadCumpleaniero")
     return "$nombreCumpleaniero\n$edadCumpleaniero"
+}
+fun problemasPracticos() {
+    println("Use the val keyword when the value doesn't change.")
+    println("Use the var keyword when the value can change.")
+    println("When you define a function, you define the parameters that can be passed to it.")
+    println("When you call a function, you pass arguments for the parameters.")
+
+    println("Nuevo mensaje de mi amigo")
+
+    var porcentajeDesc: Int = 0
+    var oferta: String = ""
+    var objeto = "Google Chromecast"
+    porcentajeDesc = 20
+    oferta = "Oferta - Mas de $porcentajeDesc porciento de descuento en $objeto"
+    println(oferta)
+
+
 }
