@@ -59,5 +59,17 @@ fun main() {
     val activarNotisF: Boolean = false
     println(activarNotisF)
 
+    cumpleañosPa()
+    cumpleañosJuanito()
+}
+fun cumpleañosPa() {
+    print("Felices 52, pa!")
+    println("")
 
+}
+fun cumpleañosJuanito(): String {
+    val nombreCumpleaniero = "Happy Birthday, JuanitoClunny"
+    val edadCumpleaniero = "You are 15 years old"
+    println("$nombreCumpleaniero\n$edadCumpleaniero")
+    return "$nombreCumpleaniero\n$edadCumpleaniero"
 }
